@@ -52,6 +52,11 @@ docker stop $(docker ps -a -q)
 docker rm $(docker ps -a -q)
 ```
 
+## Display images
+```bash
+docker images
+```
+
 ## Remove image
 ```bash
 docker rmi hello-app
