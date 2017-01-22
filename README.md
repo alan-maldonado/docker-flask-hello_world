@@ -1,12 +1,12 @@
 # A basic Flask App
 
 ## Build image
-```
+```bash
 docker build -t hello-app .
 ```
 
 ## Run container background
-```
+```bash
 docker run -d -p 5000:5000 --name hello-server hello-app
 ```
 
@@ -16,27 +16,27 @@ http://localhost:5000/
 ```
 
 ## Dockers containers not running
-```
+```bash
 docker ps
 ```
 
 ## Dockers containers running
-```
+```bash
 docker ps -a
 ```
 
 ## Stop the server
-```
+```bash
 docker start hello-server
 ```
 
 ## Restart the server
-```
+```bash
 docker start hello-server
 ```
 
 ## Enter to command in the docker
-```
+```bash
 docker exec -it hello-server bash
 ```
 
@@ -53,6 +53,6 @@ docker rm $(docker ps -a -q)
 ```
 
 ## Remove image
-```
+```bash
 docker rmi hello-app
 ```
