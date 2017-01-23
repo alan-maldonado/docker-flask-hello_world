@@ -62,7 +62,7 @@ docker images
 docker rmi hello-app
 ```
 
-# Using host folder in container
+## Using host folder in container
 ```
 docker run -d -p 80:80 -v /opt/docker-flask-hello_world:/opt/hello-app --name hello-server hello-app
 ```
