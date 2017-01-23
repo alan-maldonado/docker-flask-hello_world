@@ -42,8 +42,8 @@ docker exec -it hello-server bash
 
 ## Remove containers
 ```bash
-docker stop <containerid>
-docker rm <containerid>
+docker stop hello-server
+docker rm hello-server
 ```
 
 ## Remove all containers
